@@ -150,7 +150,7 @@ def FilterAge():
 
     try:
         int(varAgeFrom)
-        int(varAgeFrom)
+        int(varAgeTo)
     except ValueError:
         messageString = 'Wrong input format in Age Field' 
     else:
